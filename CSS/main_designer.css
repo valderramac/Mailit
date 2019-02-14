@@ -1,0 +1,38 @@
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF9800; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Sarabun', sans-serif;
+font-family: 'Megrim', cursive;
+*/
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #BDBDBD;
+}
+.left-menu{
+    background-color: #212121;
+    display: flex;
+    width: 200px;
+}
+
+.right-menu{
+    background-color: #212121;
+    display: flex;
+    width: 300px;
+}
+
+.design{
+    display: flex;
+    width: 300px;
+}
+
+.canvas{
+
+}
