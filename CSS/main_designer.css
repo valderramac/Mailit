@@ -19,6 +19,10 @@ body{
     padding: 0;
 }
 
+nav{
+    background-color: #757575;
+    height: 70px;
+}
 .grid{
     display: grid;
     /* grid-template-columns: 15% 60% 25%; */
@@ -70,11 +74,13 @@ body{
 }
 
 .canvas{
-    border: 2px solid #303F9F;
+    /* border: 2px solid #303F9F; */
     background-color: #FFFFFF;
-    border-radius: 20px;
-    margin: 50px 80px;
-    height: 85vh;
+    border-top: none;
+    border-bottom: none;
+    /* border-radius: 20px; */
+    margin: 0 80px;
+    height: 100vh;
 } 
 
 .position{
