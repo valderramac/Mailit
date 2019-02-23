@@ -15,24 +15,133 @@ font-family: 'Megrim', cursive;
 body{
     font-family: 'Ubuntu', sans-serif;
     color: #BDBDBD;
+    margin: 0;
+    padding: 0;
 }
-.left-menu{
+
+a{
+  color: #bdbdbd;
+}
+
+nav{
+    background-color: #757575;
+    height: 70px;
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 15% 60% 25%; */
+    grid-template-columns: minmax(200px,1fr) minmax(400px,4fr) minmax(300px,2fr);
+    grid-template-rows: 100vh;
+}
+ .left-menu{
     background-color: #212121;
-    display: flex;
-    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .right-menu{
     background-color: #212121;
-    display: flex;
-    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.right-item{
+    margin: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    background-color: #757575;
+    width: 90%;
+    position: relative;
+    height: 40px;
+
+}
+.right-item label{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    position: absolute;
+    top: 4px;
+}
+.right-item select
+{
+  background-color: #757575;
+  border:0px;
+  font-size: 13px;
+  width: 100%;
+  margin-top: 18px; /*preguntar aquí cómo hacerle más fino para justificarlo abajo*/
+  padding-left: 10px;
+  /* vertical-align: bottom; */
+}
+
+
+
+.fatherModules{
+  padding: 20px 10px;
+  background-color: #757575;
+  /* height: 20px; */
+  border: solid 1px #212121;
+}
+
+
+.fatherModules>a{
+  text-decoration: none;
+}
+
+.fatherModules>a:after{
+    content: " >";
+}
+
+.dropdown{
+  display: none;
+}
+
+
+#headerInput{
+  display: none;
+}
+
+.fatherModules label{
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+
+}
+
+.fatherModules input[type=checkbox]:checked ~ .dropdown{
+  display: flex;
+}
+
+
+
 .design{
-    display: flex;
-    width: 300px;
+   background-color: #BDBDBD;
 }
 
 .canvas{
+    /* border: 2px solid #303F9F; */
+    background-color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    /* border-radius: 20px; */
+    margin: 0 80px;
+    height: 100vh;
+}
 
+.position{
+    margin: 20px 20px;
+    border: 2px solid ;
+    border-radius: 10px;
+    height:110px;
+}
+h6{
+    margin-top: 5px;
+    text-align: center;
+}
+.boton{
+    text-align: center;
 }
