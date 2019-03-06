@@ -67,6 +67,21 @@ nav{
     padding-right: 15px;
 }
 
+body .grid .left-menu h3 img{
+        width: 30px;
+        border-radius: 50%;
+      }
+
+body .grid .left-menu h3 span {
+        margin-left: 15px;
+      }
+
+body .grid .left-menu h5 {
+        margin: 10px;
+      }
+      
+
+
 .right-menu{
     width:316px;
     background-color: #212121;
