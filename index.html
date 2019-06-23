@@ -1,118 +1,95 @@
+
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Sarabun|Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/main.css">
-    <title>ease-Mail</title>
+    <title>MAIL IT</title>
+<link rel="stylesheet" href="css/logIn.css">
+
+<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
   </head>
   <body>
-    <header class="header">
-      <figure class="logo">
-        <img src="" alt="Aquí va el logo" height="50">
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li>
-            <a class="link" href="index_esp.html">Español</a>
-          </li>
-          <li>
-            <a class="link" href="#how-it-works">How it works</a>
-          </li>
-          <li>
-            <a class="link" href="#login">Log In / Register</a>
-          </li>
-          <li>
-            <a class="link" href="#contact">Contact</a>
-          </li>
-        </ol>
-      </nav>
-    </header>
-    <section class="hero">
-      <h1><span class="eas">eas</span><span class="email-logo">e-Mail</span> </br>helps you <strong>design emails</strong> </br>
-        with specific well thought <strong>pre-designed templates</strong> </br>
-        that you can edit to send <strong>powerful emails</strong>
-      </h1>
-      <img class="" src="" alt="">
-    </section>
-    <section class="functionality" id="how-it-works">
-      <h2 class="functionality-title">How it works</h2>
-      <p class="functionality-text">There are pre-designed templates created by experts that you can edit
-        to get a professional well sighted email that you can send to a single
-        or to massive email adresses
-      </p>
-      <iframe class="tutorial" width="560" height="315" 
-      src="https://www.youtube.com/embed/ODNXVYtsfMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-    </section>
-    
-    <section class="login" id="login">
-      <div class="login-form">
-      <h3>Log In</h3>
-      <form class="login-form-form" action="index.html" method="post">
-          <div class="email-login-box">
-            <label class="form-login" for="email-login">Email      </label>
-            <input type="email" name="Email" value="" id="email-login">
+
+<section class="portada">
+
+
+  <section class="tarjetaLogIn">
+      <div class="logo">
+
+          <div class="theSpace">
           </div>
-          <div class="password-login-box">
-            <label class="form-login" for="password-login">Password</label>
-            <input type="password" name="Password" value="" id="password-login">
-          </div>
-          <button type="button" name="button">LogIn</button>
+
+          <h1 id= "tituLogo">MAIL_it</h1>
+          <h6>smart mail design</h6>
+
+      </div>
+
+
+        <div class="logIn">
+  
+
+
+
+
+  
+   <div class="logInWraper">
+
+
+
+          <p class="continuar">Continuar como:</p>
+        <h4 id="preSign">VALDERRAMA</h4>
+
+        <form id= "logForm" action="">
+          <!-- <label for="GET-name">password</label> -->
+          <input id="GET-password" type="password" name="password" maxlength="10" placeholder="password" required>
+          <!-- <label for="password">password</label> -->
+          <!-- <input type="submit" value="Save"> -->
         </form>
-      </div>
-      <div class=register-form>
-      <h3>Register</h3>
-      <form class="register-form-form" action="index.html" method="post">
-        <div class="name-box">
-          <label for="name">Name</label>
-          <input type="text" name="Name" value="" id="name">
+        
+
+        
+        <div class= "nextOptions">
+          <a href="#"><h6 class="recuperar">recuperar password</h6></a>
+          <a href="dashboard.html"><svg class="go" width="100%" height="100%" viewBox="0 0 134 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M0.228,48.703l0,-13.804l109.992,0l-26.663,-26.668l8.06,-8.06l41.631,41.63l-41.631,41.63l-8.06,-8.06l26.663,-26.668l-109.992,0Z"/></svg></a>
         </div>
-        <div class="div-ln-reg">
-          <label for="last-name">Last Name</label>
-        <input type="text" name="Last Name" value="" id="last-name">
-      </div>
-        <div class="div-email-reg">
-        <label for="email">Email</label>
-        <input type="email" name="e-Mail" value="" id="email">
+
+
+  </div>   
+
+
+
+
+        <div class="firstTimers">
+          
+            <h4>First Timers</h4>
+
+          <form id= "logForm" action="">
+            <!-- <label for="GET-name">password</label> -->
+            <input id="GET-password" type="password" name="password" maxlength="10" placeholder="Name" required>
+            <!-- <label for="password">password</label> -->
+            <!-- <input type="submit" value="Save"> -->
+          </form>
+          
+          <h6><br /></h6>
+        
+                <!-- <h4>eMail</h4> -->
+        
+                <form id= "logForm" action="">
+                  <!-- <label for="GET-name">password</label> -->
+                  <input id="GET-password" type="password" name="password" maxlength="10" placeholder="eMail" required>
+                  <!-- <label for="password">password</label> -->
+                  <!-- <input type="submit" value="Save"> -->
+                </form>
         </div>
-        <div class="div-pw1-reg">
-        <label for="password">Chose a password</label>
-        <input type="password" name="Password" value="" id="password">
+
+        <a class="bSign"> Sign in </a>
+
       </div>
-      <div class="div-pw2-reg">
-        <label for="password-repeat">Repeat your password</label>
-        <input type="password" name="Password" value="" id="password-repeat">
-      </div>
-        <button type="button" name="button">Register</button>
-      </form>
-    </div>
+
     </section>
-    <section class="contact" id="contact">
-      <form class="" action="index.html" method="post">
-        <h3>Send us your email</h3>
-        <input type="text" placeholder="Type your email" name="" value="">
-        <button type="button" name="button">Send</button>
-      </form>
+
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div>
-                <p>eas-eMail created in 2018 <img src="" width=80px height=60px alt="Imagen footer"></p>
-            </div>
-            <div class="social">
-              <a href="https://twitter.com/ignaciomedinar" class="social-link twitter"></a>
-              <a href="https://facebook.com" class="social-link facebook"></a>
-              <a href="https://github.com" class="social-link github"></a>
-              <a href="https://instagram.com" class="social-link instagram"></a>
-            </div>
-            <div>
-                <p>
-                    Diseñado por <a href="https://twitter.com/ignaciomedinar">@Minach</a>, <a href="https://twitter.com/ignaciomedinar">@Valderrama</a>, <a href="https://twitter.com/ignaciomedinar">@Jorge</a>
-                </p>
-            </div>
-        </div>
-    </footer>
+
   </body>
 </html>
